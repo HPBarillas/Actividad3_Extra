@@ -1,0 +1,52 @@
+Unidad2
+
+.- Conceptos basicos para inicar a programar
+	Para la elaboracion de un programa se debe de tener primero un problema a solucionar, ya que debe de tener
+	un proposito o una solucion por resolver, para eso se poseen varias tecnologias y parametros que se debe de tener
+	en cuenta al momento de la creacion de un programa
+
+	- Variables : son datos que se almacena en memoria para poder usarlos posteriormente, se pueden inciar
+				con valores cero o con un valor definido, estos valores pueden cambiar a lo largo del programa
+				si asi se cree conveniente.
+
+	- Constantes : son muy parecidas a las variables, pero con la unica diferencia es que va a ser valores
+				que no va a cambiar en el programa, deben de inicar con el valor a asignar y que no se quiere cambiar
+
+	- Palabras reservadas : son palabras que no se deben de usar en el programa, ya que son palabras que usa
+				el lenguaje para realizar ciertas operaciones como por ejemplo la declaracion de las variables
+				declaracion de sentencias de control, etc.
+
+	- Tipos de datos : son una clasificacion que se define los posibles valores al momento de realizar las 
+				operaciones, tales como "Datos numericos" para realizar las operaciones basicas entre numeros,
+				los "Datos logicos" que son de tipo booleano (verdadero o falso) los cuales van a ser para
+				la toma de decisiones con sus operadores logicos y asi poder ejecutar ciertos bloques de codigo
+				los "Datos caracter" son los que reporesentan cadenas de texto donde usan el codigo ASC II
+				donde se incluyen letras, numero, signos de puntuacion, etc.
+
+	- Esturcturas de control condicionales : sirven para que el programa pueda tener una toma de decision
+				de forma parametrizada, en base a lo que se necesita el programa, ya que al analizar su 
+				estructura ejecuta el codigo segun su resutado.
+
+				Entre las mas conocidas esta el "If" que es un condicional basico, donde solo exite el 
+				"Verdadero" o "Falso" nada mas y solo se ejecutara si es verdadero el resutlado, tambien
+				esta el "If ... Else" en donde al igual que el "If" toma la toma la decision pero puede 
+				ejecutar dos bloques de codigo tanto si es verdadero como falso el resutlado del analisis
+
+				y una sentencia mas compleja que el "If ... Else" seria el "If ... elseif ... Else" donde
+				al anlaizar la sentencia principal, al dar resultado Falso, se puede incluir otro analisis
+				para que pueda tener otras dos opciones, siempre y cuando no sean tantas decisiones ya que 
+				se puede perder entre tantas opciones.
+
+				si se va a usar muchas opciones se debe de usar la sentencia "Switch case" en donde se usa
+				un valor para el analisis y luego se puede igualr con los posibles casos, si el valor es 
+				igual se ejecuta el codigo que esta en el case
+
+	- Estructuras de control de bucles : estas estructuras sirven para ejecutar cierto bloque de codigo
+				de forma indefinida, hasta que se cumpla la condicion de salida del bucle y avance el programa
+				estas estructuras son utilies para cuando se quiere repetir varias veces o de forma
+				infinita ciertos bloques de codigo, existe la estructura de "For" donde al iniciar la 
+				se define sus valores de inicio, fin y la cantidad de saltos que se va a tener.
+
+				tambien existe la sentencia "While" al igual que For se ejecuta hasta que su valor de 
+				codicion sea verdadera, por lo tanto no se necesita tener valores de inicio y fin de
+				la ejecucion.
