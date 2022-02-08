@@ -1,0 +1,52 @@
+Unidad1
+
+.- Sistemas binarios.
+	Para la representacion de numeros existen varias formas para escribirlos, tanto de con letras (Numeros romanos), 
+	logaritmos, fraccionarios y los numeros que poseen una base distinta de 10 que es el ejemplo de los numero binarios, 
+	los cuales solo se escriben como 1 o 0.
+
+	la forma facil de realizar la conversion entre los binarios y base 10, es usar los exponentes de base 2, 2^0, 2^1, 2^2, 2^4, etc., 
+	en donde se identifica el valor y se asigna su valor.
+
+	Por ejemplo si se quiere convertir el numero 125 a binario es 1111101, ya que se busca el numero mas cercano de 
+	base 2 y se resta el valor, esto se repite la cantidad de veces hasta llegar al cero
+
+	125 - 64 = 61
+	61 - 32 = 29
+	29 - 16 = 13
+	13 - 8 = 5
+	5 - 4 = 1
+	1 - 1 = 0
+
+	2^7		2^6		2^5 	2^4 	2^3 	2^2 	2^1 	2^0	
+	128		64		32		16		8		4		2 		1
+
+			1 		1 		1 		1 		1 		0 		1
+
+	R/ 1111101
+
+
+	Y la conversion de binario a base 10 es exactamente igual, solo que se toma los valores del resutado de base 2 
+	y se suman donde exista el 1, donde esta el 0 no se suma.
+
+	La aplicacion en el dia a dia es para la simpleza de toma de desiciones, ya que solo podriamos tomar una u otra opcion.
+
+
+.- La logica.
+	Siempre es util en el dia a dia para anlizar tantas opciones que hay para tomar, ya que no siempre son tan faciles, 
+	ya que hay mas de dos opciones siempre serian un "Verdadeero" o "Falso".
+
+	Tambien se pueden unir varias proposiciones para contruir una desicion mas compleja, ya que existe la conjuncion donde 
+	se unen las dos preposiciones, donde las dos deben de ser verdaderas para que la proposicion completa sea verdadera,
+
+	Existe la disyuncion que es otra forma de unir las preposiciones, donde cualquiera de las preposiciones es verdadera 
+	el enunciado en general va a ser verdadero,
+
+.- Algoritmo
+	Es una forma muy descriptiva para poder explicar un proceso, va a ser una serie de pasos ordenados en la cual va a dar 
+	una una solucion a un problema, se deben de considerar todos los aspectos para que sea un algoritmo exitoso y evitar
+	fallos en su ejecucion.
+
+	Para el dia a dia siempre es bueno tener claras las ideas para realizar cualquier tarea tanto en el hogar como hacer
+	un almuerzo, limpiar la casa, bañar a las mascotas, etc. o para las tareas o asignaciones que uno tenga en el trabajo.
+
